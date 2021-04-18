@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node --require @babel/register src/index",
     "test": "mocha"
   },
   "repository": {
